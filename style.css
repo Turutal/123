@@ -155,7 +155,9 @@ height: 32px;
     display: none;
   }
 
-
+  .line {
+    width: 100%;
+  }
   .footer__wrap {
     align-items: flex-start;
   }
