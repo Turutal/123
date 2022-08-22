@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
 body {
   background-color: #000000;
   font-family: 'Inter', sans-serif;
@@ -33,6 +47,9 @@ body {
 .title {
   margin-top: 50px;
   text-align: center;
+
+  font-family: Gilroy;
+  font-weight: normal;
 }
 
 .btn {
